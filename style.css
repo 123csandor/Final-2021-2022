@@ -1,0 +1,63 @@
+.answer {
+    position: absolute;
+    top: 42%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font: 1vw 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+}
+
+#questionButton {
+    font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: #f8f8f8;
+    background-color: #f16059;
+    padding: 10px 75px;
+    margin-left: 2%;
+}
+
+.ball {
+  position: relative;
+}
+
+.eightBall{
+    animation: shake 1s;
+}
+
+/*  Animation ALSO ALL MY CODE I DEADASS DIDN'T STEAL!!!! */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  5% { transform: translate(-1px, -2px) rotate(-1deg); }
+  10% { transform: translate(-3px, 0px) rotate(1deg); }
+  15% { transform: translate(3px, 2px) rotate(0deg); }
+  20% { transform: translate(1px, -1px) rotate(1deg); }
+  25% { transform: translate(-1px, 2px) rotate(-1deg); }
+  30% { transform: translate(-3px, 1px) rotate(0deg); }
+  35% { transform: translate(3px, 1px) rotate(-1deg); }
+  40% { transform: translate(-1px, -1px) rotate(1deg); }
+  45% { transform: translate(1px, 2px) rotate(0deg); }
+  50% { transform: translate(1px, -2px) rotate(-1deg); }
+  55% { transform: translate(-1px, -2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 0px) rotate(1deg); }
+  65% { transform: translate(3px, 2px) rotate(0deg); }
+  70% { transform: translate(1px, -1px) rotate(1deg); }
+  75% { transform: translate(-1px, 2px) rotate(-1deg); }
+  80% { transform: translate(-3px, 1px) rotate(0deg); }
+  85% { transform: translate(3px, 1px) rotate(-1deg); }
+  90% { transform: translate(-1px, -1px) rotate(1deg); }
+  95% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.hide{
+  opacity: 0%;
+  animation: fadeinn 1s;
+}
+@keyframes fadeinn {
+  0% { opacity: 0%; }
+  50% { opacity: 50%; }
+  100% { opacity: 100%; }
+}
